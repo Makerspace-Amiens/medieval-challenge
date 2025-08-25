@@ -1,10 +1,8 @@
 - name: Informations
-  link: /informations/
-- name: Blog
-  link: /blog/
+  link: /pages/informations/
 - name: Tutoriels
-  link: 
-  dropdown: 
-    - name: Tutoriels
-      link: /tutorials/
-    
+  link: /pages/tutoriels
+- name: Ressources
+  link: /pages/ressources
+- name: Tournoi
+  link: /pages/tournament

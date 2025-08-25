@@ -1,7 +1,7 @@
-title: Craft The Docs
-description: Craft your docs for the MakerSpace Amiens
+title: Medieval Challenge
+description: Fabrique la meilleur catapulte !
 theme: bulma-clean-theme
-url: https://makerspace-amiens.fr/craft-the-docs
+url: https://makerspace-amiens.fr/cataoult-challenge
 
 force_theme: light
 permalink: pretty

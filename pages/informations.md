@@ -2,14 +2,15 @@
 layout: documentation
 hide_hero: false
 doc_header: false
-component_toc: false
-hero_image: /assets/img/placeholder.png
+component_toc: true
+hero_image: /assets/img/catapult_banner.jpg
 hero_darken: true
-title: À propos du Projet
-subtitle: Informations générales sur ce projet
+title: Information sur le site
+subtitle: Tout ce que vous devez savoir
+menubar: menu_bar
 ---
 
-### À propos du projet  
+## À propos du projet  
 
 Le Medieval Challenge est un projet de conception et de fabrication réalisé en binôme au makerspace. Chaque équipe doit concevoir une catapulte miniature dans une emprise au sol de **200 × 200 mm**. L’unique source d’énergie autorisée est un **élastique fourni**.  
 
@@ -25,7 +26,7 @@ L’aboutissement du travail est un **tournoi festif composé de plusieurs épre
 
 - Utiliser la CAO pour concevoir des pièces simples.  
 - Exporter et préparer des fichiers pour la découpe laser et l’impression 3D.  
-- Assembler un dispositif mécanique répondant à un cahier des charges.  
+- Concevoir et assembler un dispositif mécanique répondant à un cahier des charges.  
 - Découvrir le fonctionnement et les règles du makerspace.  
 - Tester et comparer les conceptions lors d’un tournoi.  
 
@@ -33,7 +34,7 @@ L’aboutissement du travail est un **tournoi festif composé de plusieurs épre
 
 ## Organisation du projet  
 
-Le projet s’organise en trois phases (8 séances de 3h = 24h) :  
+Le projet s’organise en trois phases :  
 
 1. **Séances d’initiation (3 séances = 9h)**  
    - Tutoriels d’utilisation des outils.  
@@ -44,17 +45,19 @@ Le projet s’organise en trois phases (8 séances de 3h = 24h) :
    - Conception, prototypage et fabrication de la catapulte.  
    - Ajustements et validation des prototypes.  
 
-3. **Séance finale (1 séance = 3h)**  
+3. **Séance finale (1 séance = 4h)**  
    - Tournoi et évaluation des catapultes lors des épreuves de précision, de duel et de démolition.  
 
 ---
 
 ## Équipe du projet  
 
-- **Binôme** : travail collaboratif et répartition des tâches.  
-- **Encadrants** : accompagnement technique et organisation de la compétition.  
+- **Binômes libres** : chaque binôme conçoit, prototype, fabrique et teste une catapulte. Même si le travail se fait en équipe, **chaque étudiant doit obligatoirement avoir réalisé au moins une impression 3D et une découpe laser** afin de valider sa progression individuelle.    
+ 
 
 ---
+
+## Cahier des charges 
 
 ## Ressources  
 
