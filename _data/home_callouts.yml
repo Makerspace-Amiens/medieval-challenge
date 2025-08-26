@@ -4,16 +4,16 @@ items:
   - title: Informations générales
     icon: fa-info-circle
     description: >
-      Retrouvez les informations principales du site
+      Informations et cahier des charges
     call_to_action_name: Informations
-    call_to_action_link: /informations
+    call_to_action_link: /pages/informations
 
-  - title: Autres infos
+  - title: Tutoriels
     icon: fa-toolbox
     description: >
-      D'autres infos ici
-    call_to_action_name: Voir les infos
-    call_to_action_link: /informations
+      Retrouvez les tutoriels pour bien débuter
+    call_to_action_name: Voir les tutoriels
+    call_to_action_link: /pages/tutoriels/
 
   - title: Autres infos
     description: >
