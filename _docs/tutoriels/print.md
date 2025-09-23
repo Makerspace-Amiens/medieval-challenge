@@ -9,11 +9,8 @@ doc_header: true
 type: tuto
 
 title: Impression 3D avec OrcaSlicer
-subtitle: Comment imprimer sa pièce avec OrcaSlicer
+subtitle: Comment imprimer une pièce avec OrcaSlicer
 description: Dans ce tutoriel, vous apprendrez à imprimer votre première pièce en utilisant le logiciel OrcaSlicer.
-manufacturer:
-  - name: Inkscape
-    link: "https://makerspace-amiens.fr/fab-additive/docs/tutorials/imprimer-une-piece"
     
 external_link: https://makerspace-amiens.fr/fab-additive/docs/tutorials/imprimer-une-piece
   

@@ -5,7 +5,7 @@ doc_header: false
 component_toc: true
 hero_image: isocontours.png
 hero_darken: true
-title: Information sur le site
+title: Information sur le projet
 subtitle: Tout ce que vous devez savoir
 ---
 
@@ -57,7 +57,7 @@ Le projet se déroule sur 8 séances réparties en trois étapes :
 greyBackground = false
 title = "Binômes libres"
 content="
-Chaque binôme conçoit, prototype, fabrique et teste une catapulte. Même si le travail se fait en équipe, **chaque étudiant doit obligatoirement avoir réalisé au moins une impression 3D et une découpe laser** afin de valider sa progression individuelle. "
+Chaque binôme conçoit, prototype, fabrique et teste une catapulte. Même si le travail se fait en équipe, **chaque étudiant doit obligatoirement avoir manipulé et compris comment réaliser une impression 3D et une découpe laser** afin de valider sa progression individuelle. "
 image="team.png" %}   
 
 ---
