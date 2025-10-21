@@ -10,7 +10,7 @@ subtitle: Tout ce que vous devez savoir
 ---
 
 {% include message.html title="Attention" message="Cette page peut évoluer, pensez à la consulter régulièrement  
-**V0.1 26/08/2025**" status="is-warning" dismissable="true" icon="fas fa-triangle-exclamation" %}
+**V1.2 21/10/2025**" status="is-warning" dismissable="true" icon="fas fa-triangle-exclamation" %}
 
 ## À propos du projet  
 
@@ -18,7 +18,7 @@ Le **Medieval Challenge** est un projet à réaliser en **binôme**, dont l’ob
 
 Ce projet vous permettra d’expérimenter la **CAO**, la **découpe laser** et l’**impression 3D**, tout en découvrant le fonctionnement du lieu et de ses équipements.  
 
-L’expérience se conclut par un **tournoi festif** composé de plusieurs épreuves, où chaque catapulte devra démontrer ses capacités !  
+L’expérience se conclut par un **tournoi** où chaque catapulte devra démontrer ses capacités !  
 
 ---
 
@@ -26,17 +26,12 @@ L’expérience se conclut par un **tournoi festif** composé de plusieurs épre
 
 Le projet se déroule sur 8 séances réparties en trois étapes :
 
-1. **Séances d’initiation (3 séances = 9h)**  
-   - Tutoriels d’utilisation des outils.  
-   - Réalisation guidée de pièces simples en CAO.  
-   - Premières impressions 3D et découpes laser.  
-
-2. **Séances de projet (4 séances = 12h)**  
+- **Séances de projet (5 séances = 15h)**  
    - Conception, prototypage et fabrication de la catapulte.  
    - Ajustements et validation des prototypes.  
 
-3. **Séance finale (1 séance = 4h)**  
-   - Tournoi et évaluation des catapultes lors des épreuves de précision, de duel et de démolition.  
+- **Séance finale (1 séance = 3h)**  
+   - Tournoi et évaluation des catapultes lors de l'épreuve.  
 
 ---
 
@@ -67,9 +62,11 @@ image="team.png" %}
 {% include step-tuto.html
 greyBackground = false
 title = "Dimensions"
-content="La base de la catapulte doit être un carré de **150 × 150 mm**, l’emprise au sol de l'engin ne doit pas dépasser **200 x 200mm**.  
-La hauteur est libre, mais la **stabilité** et l’**intégrité** de la machine doivent être assurées."
-image="dimensions.png" %}
+content="La base de la catapulte doit suivre le **plan standard ci-dessous**, avec une **épaisseur de 5 mm** et des **dimensions de 170 × 170 mm**.
+Une **marge de 1 cm tout autour** est **réservée et non modifiable**, afin d’assurer la compatibilité avec le **système de fixation au plateau de jeu**.
+La catapulte devra, en tout temps, tenir intégralement dans un cube de **200 × 200 × 200 mm**."
+image="dimensions.png" 
+image_2="base.png"%}
 
 {% include step-tuto.html
 greyBackground = false
@@ -77,7 +74,7 @@ title = "Source d’énergie"
 content="Un **élastique est fourni** et peut être utilisé comme source d’énergie.  
 Seules les énergies mécaniques issues de la **déformation élastique des matériaux** et de la **gravité** sont autorisées.  
 Toute autre source d’énergie (électricité, air comprimé, combustion, etc.) est interdite.  
-Le tir doit être déclenché par une **corde de 20 cm** actionnée manuellement."
+Le tir doit être déclenché par une **corde de 50 cm** actionnée manuellement."
 image="energy.png" %}
 
 {% include step-tuto.html
@@ -115,7 +112,7 @@ Ce règlement est conçu pour que chacun·e apprécie pleinement ce projet. Chaq
 
 Finalement, soyez sympas les uns envers les autres : **ce projet doit rester un jeu !** :)  
 
-## Attendus acadèmiques 
+## Attendus académiques 
 
 {% include step-tuto.html
 greyBackground = false
