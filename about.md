@@ -11,56 +11,7 @@ subtitle: Informations générales sur ce projet
 
 ### À propos du projet  
 
-Le Medieval Challenge est un projet de conception et de fabrication réalisé en binôme au makerspace. Chaque équipe doit concevoir une catapulte miniature dans une emprise au sol de **200 × 200 mm**. L’unique source d’énergie autorisée est un **élastique fourni**.  
+Le Medieval Challenge est un projet de conception et de fabrication à destination des étudiant.es en première année de cycle pré-ingénieur à UniLaSalle Amiens.
 
-L'objectif est donc de concevoir un mécanisme exploitant la force de l'élastique le plus efficacement possible !
-
-Le projet permet de mettre en pratique la modélisation 3D, l’utilisation de la découpe laser et de l’impression 3D, ainsi que le fonctionnement du makerspace. 
-
-L’aboutissement du travail est un **tournoi festif composé de plusieurs épreuves**.  
-
----
-
-## Objectifs  
-
-- Utiliser la CAO pour concevoir des pièces simples.  
-- Exporter et préparer des fichiers pour la découpe laser et l’impression 3D.  
-- Assembler un dispositif mécanique répondant à un cahier des charges.  
-- Découvrir le fonctionnement et les règles du makerspace.  
-- Tester et comparer les conceptions lors d’un tournoi.  
-
----
-
-## Organisation du projet  
-
-Le projet s’organise en trois phases (8 séances de 3h = 24h) :  
-
-1. **Séances d’initiation (3 séances = 9h)**  
-   - Tutoriels d’utilisation des outils.  
-   - Réalisation guidée de pièces simples en CAO.  
-   - Premières impressions 3D et découpes laser.  
-
-2. **Séances de projet (4 séances = 12h)**  
-   - Conception, prototypage et fabrication de la catapulte.  
-   - Ajustements et validation des prototypes.  
-
-3. **Séance finale (1 séance = 3h)**  
-   - Tournoi et évaluation des catapultes lors des épreuves de précision, de duel et de démolition.  
-
----
-
-## Équipe du projet  
-
-- **Binôme** : travail collaboratif et répartition des tâches.  
-- **Encadrants** : accompagnement technique et organisation de la compétition.  
-
----
-
-## Ressources  
-
-- [Cahier des charges technique](#)  
-- [Tutoriels CAO et fabrication](#)  
-- [Checklist de compétences](#)  
-- [Organisation de la compétition](#)  
-
----
+Adrien Bracq   
+Rémi Lacombe  

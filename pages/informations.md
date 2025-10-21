@@ -103,6 +103,9 @@ title = "Sécurité et projectiles"
 content="Les tirs doivent être **pré-validés par un encadrant** et s’effectuer uniquement en direction de la **zone de lancement prévue**.  
 Les matériaux utilisés ne doivent pas présenter d’**arêtes vives** pouvant **blesser l'utilisateur**.  
 Seules les **balles en mousse Nerf Rival fournies** sont autorisées comme projectiles.  
+
+![alt text](image.png)
+
 **Aucun tir volontaire dirigé vers une personne ne sera toléré.**"
 image="safety.png" %}
 
