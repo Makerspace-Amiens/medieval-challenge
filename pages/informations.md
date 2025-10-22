@@ -69,6 +69,10 @@ La machine devra, en position chargée, tenir intégralement dans un cube de **2
 image="dimensions.png" 
 image_2="base.png"%}
 
+{% include message.html title="Attention" message="La base s’insère dans un **support fixé à la table** de robotique. Ce support est composé d’un **rail** : pensez à prendre en compte dans votre design le **recouvrement du rail** sur la marge.
+Notez également qu’un espace de **10 mm** est disponible **sous la base** (par exemple pour loger des têtes de vis, écrous, ou autres éléments de fixation).
+![alt text](Base Support.png) " status="is-warning" dismissable="true" icon="fas fa-triangle-exclamation" %}
+
 {% include step-tuto.html
 greyBackground = false
 title = "Source d’énergie"
