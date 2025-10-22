@@ -10,7 +10,7 @@ subtitle: Tout ce que vous devez savoir
 ---
 
 {% include message.html title="Attention" message="Cette page peut évoluer, pensez à la consulter régulièrement  
-**V1.2 21/10/2025**" status="is-warning" dismissable="true" icon="fas fa-triangle-exclamation" %}
+**V1.3 22/10/2025**" status="is-warning" dismissable="true" icon="fas fa-triangle-exclamation" %}
 
 ## À propos du projet  
 
@@ -24,7 +24,7 @@ L’expérience se conclut par un **tournoi** où chaque catapulte devra démont
 
 ## Organisation du projet  
 
-Le projet se déroule sur 8 séances réparties en trois étapes :
+Le projet se déroule sur 6 séances réparties en trois étapes :
 
 - **Séances de projet (5 séances = 15h)**  
    - Conception, prototypage et fabrication de la catapulte.  
@@ -65,7 +65,7 @@ title = "Dimensions"
 content="La base de la catapulte doit suivre le **plan standard ci-dessous**.
 Il s'agit d'une planche en bois que vous devrez découper au laser, de **5 mm d'épaisseur** et ayant pour **dimensions 170 × 170 mm**.
 Une **marge de 1 cm tout autour** est **réservée et non modifiable**, afin d’assurer la compatibilité avec le **système de fixation au plateau de jeu**.
-La catapulte devra, en tout temps, tenir intégralement dans un cube de **200 × 200 × 200 mm**."
+La machine devra, en position chargée, tenir intégralement dans un cube de **200 × 200 × 200 mm**."
 image="dimensions.png" 
 image_2="base.png"%}
 
