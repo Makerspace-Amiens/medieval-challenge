@@ -11,7 +11,7 @@ subtitle: A venir...
 
 ![alt text](<Assembly 1.png>)
 
-{% include_relative tournament/board_model.html %}
+{% include_relative tournament/model/index.html %}
 
 ## 1. Calculer son score
 
