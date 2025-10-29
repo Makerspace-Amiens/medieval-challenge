@@ -59,4 +59,4 @@ Une équipe tire :
 
 {% include calculator-score-medieval-challenge.html %}
 
-{% include_relative tournament/index.html %}
+{% include_relative tournament/model_board.html %}
