@@ -11,8 +11,6 @@ subtitle: A venir...
 
 ![alt text](<Assembly 1.png>)
 
-{% include_relative tournament/index.html %}
-
 ## 1. Calculer son score
 
 Chaque équipe dispose de 5 balles pour réaliser ses tirs.
@@ -60,3 +58,5 @@ Une équipe tire :
 ## 2. Calculateur de score
 
 {% include calculator-score-medieval-challenge.html %}
+
+{% include_relative tournament/index.html %}
