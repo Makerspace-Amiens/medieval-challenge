@@ -24,9 +24,6 @@ const onProgress = (event) => {
       modalViewer.appendChild(btn.cloneNode(true));
     });
 
-    // Setup dimensioning
-    setupDimensioning(modalViewer);
-
     modal.classList.add("is-active");
   }
 
@@ -36,6 +33,5 @@ const onProgress = (event) => {
 
   const mainViewer = document.getElementById("dimension-model");
   mainViewer.addEventListener('progress', onProgress);
-  setupDimensioning(mainViewer);
 
 document.querySelector('model-viewer').addEventListener('progress', onProgress);
