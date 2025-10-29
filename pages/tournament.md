@@ -8,10 +8,10 @@ hero_darken: true
 title: Règles du tournoi
 subtitle: A venir...
 ---
--
+
 ![alt text](<Assembly 1.png>)
 
-
+{% include_relative tournament/board_model.html %}
 
 ## 1. Calculer son score
 
