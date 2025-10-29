@@ -1,0 +1,137 @@
+<form class="form-horizontal">
+
+  <!-- SECTION TOURS -->
+  <h4 class="title is-5 mt-4">Tours détruites</h4>
+
+  <!-- Tours 10 pts -->
+  <div class="field is-horizontal">
+    <div class="field-label is-normal is-3">
+      <label class="label" for="t10">Tours de 10 pts</label>
+    </div>
+    <div class="field-body">
+      <div class="field has-addons">
+        <div class="control is-2">
+          <input id="t10" class="input" type="number" min="0" max="2" value="0" oninput="calcScore()">
+        </div>
+        <div class="control"><a class="button is-static">/2</a></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tours 5 pts -->
+  <div class="field is-horizontal">
+    <div class="field-label is-normal is-3">
+      <label class="label" for="t5">Tours de 5 pts</label>
+    </div>
+    <div class="field-body">
+      <div class="field has-addons">
+        <div class="control is-2">
+          <input id="t5" class="input" type="number" min="0" max="4" value="0" oninput="calcScore()">
+        </div>
+        <div class="control"><a class="button is-static">/4</a></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tours 3 pts -->
+  <div class="field is-horizontal">
+    <div class="field-label is-normal is-3">
+      <label class="label" for="t3">Tours de 3 pts</label>
+    </div>
+    <div class="field-body">
+      <div class="field has-addons">
+        <div class="control is-2">
+          <input id="t3" class="input" type="number" min="0" max="3" value="0" oninput="calcScore()">
+        </div>
+        <div class="control"><a class="button is-static">/3</a></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION ANNEAUX -->
+  <h4 class="title is-5 mt-5">Anneaux franchis</h4>
+
+  <div class="field is-horizontal">
+    <div class="field-label is-normal is-3">
+      <label class="label">Sélection des anneaux</label>
+    </div>
+    <div class="field-body">
+      <div class="field">
+        <label class="checkbox">
+          <input type="checkbox" id="a15" value="1.5" onchange="calcScore()"> Anneau ×1.5
+        </label>
+      </div>
+      <div class="field ml-4">
+        <label class="checkbox">
+          <input type="checkbox" id="a2a" value="2" onchange="calcScore()"> Anneau ×2 (1)
+        </label>
+      </div>
+      <div class="field ml-4">
+        <label class="checkbox">
+          <input type="checkbox" id="a2b" value="2" onchange="calcScore()"> Anneau ×2 (2)
+        </label>
+      </div>
+    </div>
+  </div>
+
+</form>
+
+<!-- SECTION RÉSULTAT -->
+<h4 class="title is-5 mt-5">Résultat</h4>
+
+<form class="form-horizontal">
+  <div class="field is-horizontal">
+    <div class="field-label is-normal is-3">
+      <label class="label" for="scoreTotal">Score total</label>
+    </div>
+    <div class="field-body">
+      <div class="field has-addons">
+        <div class="control is-2">
+          <input id="scoreTotal" class="input has-text-weight-bold" type="text" readonly>
+        </div>
+        <div class="control"><a class="button is-static">[points]</a></div>
+      </div>
+    </div>
+  </div>
+</form>
+
+<!-- STYLE -->
+<style>
+  .field { margin-bottom: 1rem; }
+  .input { max-width: 120px; text-align: center; }
+  .field-label { flex: 0 0 200px; }
+</style>
+
+<!-- SCRIPT -->
+<script>
+  function calcScore() {
+    // Tours
+    const t10 = Number(document.getElementById("t10").value);
+    const t5  = Number(document.getElementById("t5").value);
+    const t3  = Number(document.getElementById("t3").value);
+
+    // Anneaux cochés
+    const a15 = document.getElementById("a15").checked ? 1.5 : 0;
+    const a2a = document.getElementById("a2a").checked ? 2 : 0;
+    const a2b = document.getElementById("a2b").checked ? 2 : 0;
+
+    // Sommes
+    const baseScore = (t10 * 10) + (t5 * 5) + (t3 * 3);
+    const multiplicateur = a15 + a2a + a2b;
+
+    // Calcul du score total
+    let total = 0;
+    if (baseScore > 0 && multiplicateur > 0) {
+      total = baseScore * multiplicateur;
+    } else if (baseScore > 0 && multiplicateur === 0) {
+      total = baseScore;
+    } else if (baseScore === 0 && multiplicateur > 0) {
+      total = 10 * multiplicateur; // cas rare
+    }
+
+    // Affichage
+    document.getElementById("scoreTotal").value = total.toFixed(1);
+  }
+
+  calcScore();
+</script>
