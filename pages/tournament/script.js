@@ -10,4 +10,32 @@ const onProgress = (event) => {
     progressBar.classList.remove('hide');
   }
 };
+
+  function openModelModal(modelSrc) {
+    const modal = document.getElementById("model-modal");
+    const modalViewer = document.getElementById("modal-model-viewer");
+    const mainViewer = document.getElementById("dimension-model");
+
+    modalViewer.innerHTML = ''; // clean up
+    modalViewer.setAttribute("src", modelSrc);
+
+    // Clone hotspots + labels
+    mainViewer.querySelectorAll("button[slot]").forEach(btn => {
+      modalViewer.appendChild(btn.cloneNode(true));
+    });
+
+    // Setup dimensioning
+    setupDimensioning(modalViewer);
+
+    modal.classList.add("is-active");
+  }
+
+  function closeModelModal() {
+    document.getElementById("model-modal").classList.remove("is-active");
+  }
+
+  const mainViewer = document.getElementById("dimension-model");
+  mainViewer.addEventListener('progress', onProgress);
+  setupDimensioning(mainViewer);
+
 document.querySelector('model-viewer').addEventListener('progress', onProgress);
