@@ -3,61 +3,69 @@ layout: documentation
 hide_hero: false
 doc_header: false
 component_toc: true
-hero_image: isocontours.png
+hero_image: Assembly 1.png
 hero_darken: true
-title: Règles du tournoi
-subtitle: A venir...
----
-
-![alt text](<Assembly 1.png>)
+title: Le tournoi
+subtitle: Règles et fonctionnement
 
 ---
 
-{% include_relative tournament/model_board.html %}
+## Règles du jeu
 
-## 1. Calculer son score
+Chaque **essai** comprend **5 tirs**, à répartir librement entre **les tours à détruire** — pour marquer des points — et **les anneaux boosters** — pour multiplier le total.  
+Les équipes doivent donc **trouver le bon équilibre entre force et précision** !
 
-Chaque équipe dispose de 5 balles pour réaliser ses tirs.
-Chaque balle peut être utilisée soit pour franchir un anneau multiplicateur, soit pour détruire une tour.
-Les équipes doivent donc trouver le bon équilibre entre viser des tours pour accumuler des points et franchir des anneaux pour multiplier leur score final.
+---
 
-### Les anneaux multiplicateurs
+{% include 3d-model.html model="BOARDTEXT.glb" poster="poster.webp" fullscreen_modal=true %}
 
-Chaque anneau franchi ajoute un facteur multiplicateur au total.
-Les anneaux ne peuvent être utilisés qu’une seule fois chacun pendant la manche.
-
-- Anneau ×1.5 : 1 tir possible
-- Anneaux ×2 : 2 tirs possibles (un par anneau)
-
-👉 Maximum : 3 balles peuvent être tirées dans des anneaux
+---
 
 ### Les tours
 
-Chaque tour détruite ajoute un certain nombre de points à la somme de base :
+Chaque **tour détruite** ajoute des **points au total** :
 
-- Tours de 10 points (2 tours sur le terrain)
-- Tours de 5 points (4 tours sur le terrain)
-- Tours de 3 points (3 tours sur le terrain)
+<span style="color:green; font-weight:bold;">Tours vertes</span> → **+ 3 pts** *(3 sur le terrain)*  
+<span style="color:gold; font-weight:bold;">Tours jaunes</span> → **+ 5 pts** *(4 sur le terrain)*  
+<span style="color:red; font-weight:bold;">Tours rouges</span> → **+ 10 pts** *(2 sur le terrain)*
 
-👉 Les balles restantes (non utilisées pour les anneaux) peuvent être tirées sur les tours.
+
+
+
+
+---
+
+### Les anneaux boosters
+
+Trois **anneaux** sont disposés sur le terrain.  
+Franchir un anneau active un **multiplicateur** appliqué au score total à la fin du match.
+
+- **Anneau central ×1.5** → *diamètre 50 cm*  
+- **Deux anneaux latéraux ×2** → *diamètre 35 cm chacun*
+
+Chaque anneau **ne peut activer son bonus qu’une seule fois** par essai,  
+même si plusieurs balles y passent.
+
+---
 
 ### Calcul du score
 
-Le score final est calculé de la manière suivante :
+Le score est calculé à la **fin du match**, en observant l'état du plateau. 
 
-Score total = (somme des points des tours détruites) × (somme des multiplicateurs des anneaux franchis)
+**Score total = (somme des points des tours détruites) × (somme des multiplicateurs des boosters activés)**
 
-### Exemple
+---
 
-Une équipe tire :
+### Exemple de match
 
-- 1 balle dans l’anneau ×1.5
-- 2 balles dans les anneaux ×2
-- 1 balle dans une tour de 10 points
-- 1 balle dans une tour de 5 points
+À la fin du match :
 
-**Score =** (10 + 5) × (1.5 + 2 + 2) = **82,5 points**
+- Une <span style="color:red; font-weight:bold;">tour rouge</span> (+ 10 pts) est détruite  
+- Une <span style="color:gold; font-weight:bold;">tour jaune</span> ( + 5 pts) est détruite  
+- L'**anneau booster ×1.5** a été franchi  
+- Les **deux anneaux boosters ×2** ont été franchis  
 
+➡️ **Score final = (10 + 5) × (1.5 + 2 + 2) = 82,5 points**
 
 ## 2. Calculateur de score
 
